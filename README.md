@@ -2,4 +2,4 @@
 
 Development for the Zeaplus M7
 
-08/07/2015 - Completed basic CWM recovery image - UNTESTED
+14/07/2015 - Commit device tree
