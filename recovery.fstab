@@ -17,4 +17,7 @@
 /dev/block/platform/mtk-msdc.0/by-name/custom      /custom       ext4   ro,relatime               wait
 
 /devices/mtk-msdc.0/11240000.MSDC1/mmc_host/mmc1		auto		auto	defaults				voldmanaged=sdcard1:auto,noemulatedsd
+<<<<<<< HEAD
 
+=======
+>>>>>>> b967575a573bf2994912bf48ab2793cb0e997580

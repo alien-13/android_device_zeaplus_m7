@@ -77,4 +77,7 @@ $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) \
 	$(hide) $(call assert-max-image-size,$@, \
 		$(BOARD_RECOVERYIMAGE_PARTITION_SIZE),raw)
 	@echo -e ${CL_CYN}"Made recovery image: $@"${CL_RST}
+<<<<<<< HEAD
 
+=======
+>>>>>>> b967575a573bf2994912bf48ab2793cb0e997580

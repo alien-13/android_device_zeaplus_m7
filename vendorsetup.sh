@@ -22,4 +22,7 @@
 
 add_lunch_combo omni_m7-eng
 add_lunch_combo omni_m7-userdebug
+<<<<<<< HEAD
 
+=======
+>>>>>>> b967575a573bf2994912bf48ab2793cb0e997580
