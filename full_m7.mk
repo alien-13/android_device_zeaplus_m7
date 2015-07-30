@@ -1,5 +1,4 @@
-# Copyright (C) 2013 OmniROM Project
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,16 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, device/zeaplus/m7/device_m7.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# This is where we'd set a backup provider if we had one
-#$(call inherit-product, device/sample/products/backup_overlay.mk)
-#$(call inherit-product, device/zeaplus/m7/device.mk)
-
-# Discard inherited values and use our own instead.
 PRODUCT_NAME := full_m7
 PRODUCT_DEVICE := m7
-PRODUCT_BRAND := zeaplus
-PRODUCT_MANUFACTURER := Zeaplus
+PRODUCT_BRAND := Zeaplus
 PRODUCT_MODEL := m7
